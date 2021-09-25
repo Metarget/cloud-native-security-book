@@ -1,0 +1,48 @@
+# 《云原生安全：攻防实践与体系构建》资料仓库
+
+本仓库提供了《云原生安全：攻防实践与体系构建》一书的补充材料和随书源码，供感兴趣的读者深入阅读、实践。
+
+**本仓库所有内容仅供教学、研究使用，严禁用于非法用途，违者后果自负！**
+
+## 补充阅读资料
+
+- [CVE-2017-1002101：突破隔离访问宿主机文件系统.pdf](appendix/CVE-2017-1002101：突破隔离访问宿主机文件系统.pdf)
+- [CVE-2018-1002103：远程代码执行与虚拟机逃逸.pdf](appendix/CVE-2018-1002103：远程代码执行与虚拟机逃逸.pdf)
+- [CVE-2020-8595：Istio认证绕过.pdf](appendix/CVE-2020-8595：Istio认证绕过.pdf)
+- [靶机实验：综合场景下的渗透实战.pdf](appendix/靶机实验：综合场景下的渗透实战.pdf)
+
+## 随书源码
+
+|代码目录|描述|定位|
+|:-|:-|:-|
+|[0302-开发侧攻击/02-CVE-2018-15664/symlink_race/](https://github.com/brant-ruan/cloud-native-security-book/tree/main/code/0302-开发侧攻击/02-CVE-2018-15664/symlink_race)| CVE-2018-15664漏洞利用代码|3.2.2小节|
+|[0302-开发侧攻击/03-CVE-2019-14271/](https://github.com/brant-ruan/cloud-native-security-book/tree/main/code/0302-开发侧攻击/03-CVE-2019-14271)|CVE-2019-14271漏洞利用代码|3.2.3小节|
+|[0303-供应链攻击/01-CVE-2019-5021-alpine/](https://github.com/brant-ruan/cloud-native-security-book/tree/main/code/0303-供应链攻击/01-CVE-2019-5021-alpine)|基于存在CVE-2019-5021漏洞的Alpine镜像构建漏洞镜像示例|3.3.1小节|
+|[0303-供应链攻击/02-CVE-2016-5195-malicious-image/](https://github.com/brant-ruan/cloud-native-security-book/tree/main/code/0303-供应链攻击/02-CVE-2016-5195-malicious-image)|CVE-2016-5195漏洞利用镜像构建示例|3.3.2小节|
+|[0304-运行时攻击/01-容器逃逸/](https://github.com/brant-ruan/cloud-native-security-book/tree/main/code/0304-运行时攻击/01-容器逃逸)|多个用于容器逃逸的代码片段|3.4.1小节|
+|[0304-运行时攻击/02-安全容器逃逸/](https://github.com/brant-ruan/cloud-native-security-book/tree/main/code/0304-运行时攻击/02-安全容器逃逸)|安全容器逃逸的漏洞利用代码|3.4.2小节|
+|[0304-运行时攻击/03-资源耗尽型攻击/](https://github.com/brant-ruan/cloud-native-security-book/tree/main/code/0304-运行时攻击/03-资源耗尽型攻击)|资源耗尽型攻击示例代码|3.4.3小节|
+|[0402-Kubernetes组件不安全配置/](https://github.com/brant-ruan/cloud-native-security-book/tree/main/code/0402-Kubernetes组件不安全配置/)|K8s不安全配置的利用命令|4.2节|
+|[0403-CVE-2018-1002105/](https://github.com/brant-ruan/cloud-native-security-book/tree/main/code/0403-CVE-2018-1002105)|CVE-2018-1002105漏洞利用代码|4.3节|
+|[0404-K8s拒绝服务攻击/](https://github.com/brant-ruan/cloud-native-security-book/tree/main/code/0404-K8s拒绝服务攻击/)|CVE-2019-11253和CVE-2019-9512的漏洞利用代码|4.4节|
+|[0405-云原生网络攻击/](https://github.com/brant-ruan/cloud-native-security-book/tree/main/code/0405-云原生网络攻击/)|云原生中间人攻击网络环境模拟及攻击代码示例|4.5节|
+
+## 分享与交流
+
+欢迎关注“绿盟科技研究通讯”公众号，我们将持续、高质量地输出信息安全前沿领域研究成果：
+
+![微信搜索“绿盟科技研究通讯”](images/yjtx.png)
+
+## 注意事项
+
+其中部分源码来自网络上其他地方，为方便读者实践，一并归档。这些源码及“摘录出处”为：
+
+1. [0302-开发侧攻击/02-CVE-2018-15664/symlink_race](https://github.com/brant-ruan/cloud-native-security-book/tree/main/code/0302-开发侧攻击/02-CVE-2018-15664/symlink_race)：https://seclists.org/oss-sec/2019/q2/131
+2. [0302-开发侧攻击/03-CVE-2019-14271/](https://github.com/brant-ruan/cloud-native-security-book/tree/main/code/0302-开发侧攻击)：https://unit42.paloaltonetworks.com/docker-patched-the-most-severe-copy-vulnerability-to-date-with-cve-2019-14271/
+3. [0304-运行时攻击/01-容器逃逸/CVE-2016-5195/](https://github.com/brant-ruan/cloud-native-security-book/tree/main/code/0304-运行时攻击/01-容器逃逸/CVE-2016-5195)：https://github.com/scumjr/dirtycow-vdso
+4. [0304-运行时攻击/01-容器逃逸/CVE-2019-5736/](https://github.com/brant-ruan/cloud-native-security-book/tree/main/code/0304-运行时攻击/01-容器逃逸/CVE-2019-5736)：https://github.com/Frichetten/CVE-2019-5736-PoC
+
+引用的项目及代码的许可证（License）以原项目为准。
+
+部分经过笔者修改的源码不再在此列出，书中对相关引用均给出了出处，感兴趣的读者可以参考。
+

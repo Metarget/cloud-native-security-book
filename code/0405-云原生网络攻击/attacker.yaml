@@ -1,0 +1,10 @@
+# attacker_pod
+apiVersion: v1
+kind: Pod
+metadata:
+  name: attacker
+spec:
+  containers:
+  - name: main
+    image: k8s_dns_mitm:1.0
+    imagePullPolicy: IfNotPresent

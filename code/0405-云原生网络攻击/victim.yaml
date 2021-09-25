@@ -1,0 +1,13 @@
+# victim pod
+apiVersion: v1
+kind: Pod
+metadata:
+  name: victim
+spec:
+  containers:
+  - name: main
+    image: curlimages/curl:latest
+    imagePullPolicy: IfNotPresent
+    # Just spin & wait forever
+    command: [ "/bin/sh", "-c", "--" ]
+    args: [ "while true; do sleep 30; done;" ]
