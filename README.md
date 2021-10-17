@@ -7,7 +7,7 @@
 ## 补充阅读资料
 
 
-- [100_云计算简介.pdf](appendix/附录100_云计算简介.pdf)
+- [100_云计算简介.pdf](appendix/100_云计算简介.pdf)
 - [101_代码安全.pdf](appendix/101_代码安全.pdf)
 - [200_容器技术.pdf](appendix/200_容器技术.pdf)
 - [201_容器编排.pdf](appendix/201_容器编排.pdf)
