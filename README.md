@@ -1,6 +1,8 @@
 # 《云原生安全：攻防实践与体系构建》资料仓库
 
-<img src="https://raw.githubusercontent.com/brant-ruan/cloud-native-security-book/main/images/book.jpg" width = "250" height = "317" alt="" />
+<p align="center">
+  <img src="https://raw.githubusercontent.com/brant-ruan/cloud-native-security-book/main/images/book.jpg" width = "250" height = "317" alt="" />
+</p>
 
 本仓库提供了《云原生安全：攻防实践与体系构建》一书的补充材料和随书源码，供感兴趣的读者深入阅读、实践。
 
