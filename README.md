@@ -8,11 +8,7 @@
 
 **本仓库所有内容仅供教学、研究使用，严禁用于非法用途，违者后果自负！**
 
-相关链接：
-
-- [豆瓣](https://book.douban.com/subject/35640762/)
-- [京东](https://item.jd.com/13495676.html)
-- [当当](http://product.dangdang.com/29318802.html)
+相关链接：[豆瓣](https://book.douban.com/subject/35640762/) | [京东](https://item.jd.com/13495676.html) | [当当](http://product.dangdang.com/29318802.html)
 
 ## 补充阅读资料
 
