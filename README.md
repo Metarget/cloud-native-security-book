@@ -68,7 +68,7 @@
 
 详见[issue 6](https://github.com/Metarget/cloud-native-security-book/issues/6)。
 
-感谢@XDTG指出。书上的步骤在效果上没有问题，但@XDTG提出的方案更自然优雅。经验证后，我们考虑在后续的印刷中更新方案。
+感谢读者[@XDTG](https://github.com/XDTG)指出。书上的步骤在效果上没有问题，但@XDTG提出的方案更自然优雅。经验证后，我们考虑在后续的印刷中更新方案。
 
 ### 第1版第1次印刷
 
