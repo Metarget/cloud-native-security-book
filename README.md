@@ -66,6 +66,12 @@
 
 #### P42 - 3.2.3 CVE-2019-14271：加载不受信任的动态链接库
 
+详见[issue 7](https://github.com/Metarget/cloud-native-security-book/issues/7)。
+
+感谢读者[@WAY29](https://github.com/WAY29)指出。为了成功编译Glibc，需要事先进行configure操作，才能进行make。我们将在后续的印刷中进行修正。
+
+#### P42 - 3.2.3 CVE-2019-14271：加载不受信任的动态链接库
+
 详见[issue 6](https://github.com/Metarget/cloud-native-security-book/issues/6)。
 
 感谢读者[@XDTG](https://github.com/XDTG)指出。书上的步骤在效果上没有问题，但@XDTG提出的方案更自然优雅。经验证后，我们考虑在后续的印刷中更新方案。
