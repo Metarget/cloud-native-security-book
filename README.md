@@ -12,7 +12,6 @@
 
 ## 补充阅读资料
 
-
 - [100_云计算简介.pdf](appendix/100_云计算简介.pdf)
 - [101_代码安全.pdf](appendix/101_代码安全.pdf)
 - [200_容器技术.pdf](appendix/200_容器技术.pdf)
@@ -63,6 +62,18 @@
 ## 勘误及补充说明
 
 ### 第1版第3次印刷
+
+#### P44 - 3.3.1 镜像漏洞利用
+
+详见[issue 8](https://github.com/Metarget/cloud-native-security-book/issues/8)。
+
+第44页下方用于构建镜像的命令不完整，缺少对构建目录的指定。正确的命令如下（注意最后增加了一个`.`）：
+
+```bash
+docker build --network=host -t alpine:cve-2019-5021 .
+```
+
+感谢读者[@WAY29](https://github.com/WAY29)指出。我们将在后续的印刷中进行修正。
 
 #### P42 - 3.2.3 CVE-2019-14271：加载不受信任的动态链接库
 
