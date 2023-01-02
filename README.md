@@ -85,7 +85,7 @@ docker build --network=host -t alpine:cve-2019-5021 .
 
 详见[issue 6](https://github.com/Metarget/cloud-native-security-book/issues/6)。
 
-感谢读者[@XDTG](https://github.com/XDTG)指出。书上的步骤在效果上没有问题，但@XDTG提出的方案更自然优雅。经验证后，我们考虑在后续的印刷中更新方案。
+感谢读者[@XDTG](https://github.com/XDTG)指出。书上的步骤在效果上没有问题，但[@XDTG](https://github.com/XDTG)提出的方案更自然优雅。经验证后，我们考虑在后续的印刷中更新方案。
 
 ### 第1版第1次印刷
 
