@@ -63,6 +63,17 @@
 
 ### 第1版第3次印刷
 
+#### P56 - 3.4.1 容器逃逸
+
+详见[issue 9](https://github.com/Metarget/cloud-native-security-book/issues/9)。
+
+未来印刷将对原文作以下两处补充和修正：
+
+1. 增加对`#!/proc/self/exe`的必要性的解释（non-dumpable -> dumpable），这里或可提到CVE-2016-9962漏洞。
+2. 在攻击步骤中明确给出上下文，消除“一次runC执行中实现覆盖和shellcode执行”的歧义。
+
+感谢读者[@XDTG](https://github.com/XDTG)指出。我们将在后续的印刷中进行补充和修正。
+
 #### P44 - 3.3.1 镜像漏洞利用
 
 详见[issue 8](https://github.com/Metarget/cloud-native-security-book/issues/8)。
